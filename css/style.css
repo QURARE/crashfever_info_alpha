@@ -2,7 +2,7 @@
 html{
     width: 100%;
     height: 100%;
-    text-align: center;
+    margin: 0 auto;
 }
 body{
     width: 100%;
@@ -23,14 +23,20 @@ th,td{
     /*vertical-align: middle;   /* 가운데 */
  }
 div.nav{
+    color: black;
     float: left;
     width: 150px;
     text-align: center;
     vertical-align: middle;
 }
-    #now{
+#now{
         color: white;
         background-color: black;     
-    }
-
+}
+.mission_name{
+    width: 300px;
+}
+.reward{
+    width: 150px;
+}
 </style>
