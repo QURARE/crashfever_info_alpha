@@ -1,0 +1,36 @@
+<style>
+html{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+table{
+    float: inherit;
+    border-collapse : collapse;
+}  /*이중선 제거*/
+th,td{
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+
+    /*vertical-align: top;	/* 위 */
+    /*vertical-align: bottom;   /* 아래 */
+    /*vertical-align: middle;   /* 가운데 */
+ }
+div.nav{
+    float: left;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+    #now{
+        color: white;
+        background-color: black;     
+    }
+
+</style>
